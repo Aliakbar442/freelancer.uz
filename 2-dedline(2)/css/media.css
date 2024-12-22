@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width:447px) {
+    nav .container {
+        padding: 5px 10px;
+        /* justify-content: center; */
+        overflow: hidden;
+    }
+
+
+    nav ul {
+        display: none;
+    }
+
+    nav .container img {
+        width: 50px;
+    }
+
+    .hero {
+        background: url("../img/maxresdefault.jpg");
+        background-repeat: no-repeat;
+        background-size: 600%;
+        background-position: center;
+    }
+
+    .hero .container {
+        padding: 100px 0px 30px 0px;
+        flex-wrap: wrap;
+        /* overflow: hidden; */
+    }
+
+    .btn {
+        display: none;
+    }
+
+    #list_menu {
+        display: block;
+        /* margin-right: 100px; */
+    }
+
+    /* #modal {
+        display: block;
+    } */
+
+    .hero .container .hero_info {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero .container .hero_info h2 {
+        font-size: 27px;
+        line-height: 34px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 600;
+        transition: all .5s ease;
+    }
+
+    .hero_info button {
+        width: 86%;
+        margin-top: 20px;
+    }
+
+    .hero .container .hero_info h2:hover {
+        color: gold;
+    }
+
+    .hero .container .hero_info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero .hero_img {
+        display: none;
+    }
+
+    .section1 .container {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .section1 .container .block {
+        flex-direction: column;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .section1 .block .box {
+        width: 90%;
+        height: 175px;
+        background-size: 250%;
+    }
+
+    .block .box .box_info {
+        height: 100%;
+        position: absolute;
+        bottom: -100%;
+        transition: all .7s ease;
+        backdrop-filter: blur(6px);
+        color: goldenrod;
+        padding: 40px 10px 10px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .section_title {
+        width: 90%;
+        margin: auto;
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    .section1 .container button {
+        width: 86%;
+        margin: auto;
+    }
+
+    .section2 .container .elonlar {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section2 .elonlar .elon {
+        width: 90%;
+        height: 290px;
+    }
+
+    .section2 .container {
+        padding: 60px 0px 50px 0px;
+    }
+
+    .section2 .sec2_title {
+        width: 90%;
+        margin: auto;
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    .section3 .container {
+        padding: 30px 0px;
+    }
+
+    .section3 .container .portfolio {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section3 .portfolio .port_info {
+        width: 90%;
+        margin: auto;
+    }
+
+    .section3 .portfolio img {
+        width: 89%;
+        margin: auto;
+    }
+
+    .section3 .port_info button {
+        width: 85%;
+        margin: 10px auto 0px auto;
+    }
+
+    .port_info .file {
+        width: 100px;
+        height: 100px;
+        /* margin: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file label img {
+        width: 100%;
+    }
+
+    .section3 .sec3_title {
+        width: 90%;
+        margin: auto;
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    .f_up .container {
+        padding: 10px 4px;
+        flex-wrap: wrap;
+    }
+
+    .f_up a {
+        margin-bottom: 10px;
+    }
+
+    .f_up a h3 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .f_up a i {
+        font-size: 20px;
+    }
+
+    .f_down .container {
+        padding: 10px 4px;
+        flex-wrap: wrap;
+    }
+
+    .massage {
+        width: 90%;
+        margin: auto;
+    }
+
+    .f_down .container .social {
+        margin: 30px auto 0px auto;
+        width: 90%;
+
+    }
+
+    .f_down .container .social i {
+        font-size: 20px;
+    }
+
+    .nav_title {
+        display: block;
+        font-size: 26px;
+        /* color: white; */
+        line-height: 39px;
+    }
+
+    .section4 .container {
+        padding: 80px 0px 10px 0px;
+    }
+
+    .section4 .container img {
+        display: none;
+    }
+
+    .reg_info {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reg_title {
+        font-size: 29px;
+        line-height: 36px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .reg_info .oddiy {
+        width: 85%;
+    }
+    .reg_info button{
+        width: 80%;
+    }
+    .change_mod{
+        display: block;
+    }
+}
